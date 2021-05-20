@@ -66,6 +66,8 @@ h2 {
 }
 
 .btn {
+    font-family: 'Montserrat', sans-serif;
+    border: none;
     text-decoration: none;
     color:#05386b;
     background-color: #a0a0fd;
@@ -98,7 +100,7 @@ h2 {
 }
 
 a:hover {
-  color: red;
+  color: blue;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -112,8 +114,24 @@ footer {
     padding: 30px;
 }
 
-footer a {
+.footer_p {
+    margin: 0 auto;
     color: white;
-  background-color: transparent;
-  text-decoration: none;
+    background-color: transparent;
+    text-decoration: none;
+    margin-right: 260px;
+}
+
+.footer_p a {
+    text-decoration: none;
+    color: white;
+}
+
+.back_p {
+    float: left;
+}
+
+.back_p a {
+    text-decoration: none;
+    color: white;
 }
