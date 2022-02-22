@@ -1,0 +1,153 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  font-family: 'Montserrat', sans-serif;
+  color: #05386b;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+  outline: none;
+  border: none;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.grid {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.grid__row {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.grid__half-col {
+  width:50%;
+}
+
+.grid__four-col {
+  width: calc(100% / 4);
+  padding: 10px;
+}
+
+.header {
+    background-image: linear-gradient(90deg,rgb(160, 160, 253), rgb(48, 48, 231));
+}
+
+.header-text {
+    padding: 10px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.content-text {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.content-text-p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.content-text-big {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.ram-card {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  grid-template-columns: 
+    repeat(auto-fit, mimax(150px, 1fr));
+}
+
+.ram-col-image {
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 100rem;
+  border: 1px solid #05386b;
+  transition: all 0.4s linear;
+}
+
+.ram-col-image:hover {
+  transform: scale(1.1);
+}
+
+.ram-col-text {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.ram-btn {
+  text-align: center;
+}
+
+.ram-col-btn {
+  /* text-align: center;
+  margin: 0 auto; */
+  margin-top: 15px;
+  padding: 5px 25px;
+  border-radius: 20px;
+  color: #05386b;
+  font-weight: 500;
+  border: 1px solid #05386b;
+  transition: all 0.3s linear;
+}
+
+.ram-col-btn:hover {
+  background-color: #05386b;
+  color: white;
+}
+
+.footer-text {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 46.1875em) {
+  
+}
